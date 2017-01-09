@@ -25,6 +25,7 @@
     background-color:#616161;
     text-align: center;
     
+    
 }
 #navbarOptions {
     background-color: #FAFAFA;
@@ -53,7 +54,7 @@
 
 #searchBar {
     background-color: #D7D7D7;
-    height:40px;
+    height:80px;
     width:100%;
     display:flex;
     flex-direction: row;
@@ -61,33 +62,48 @@
 
 #searchInput {
     margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 22px;
+
 }
 
 
 /* When spacing text like search bar title, use line height instead of margin or padding in this scenario*/
 #searchBarTitle {
-    margin-left: 22px;
+    margin-left: 44px;
     font-family: 'Open Sans', sans-serif;
     font-size: 21px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #616161; 
 }
 
 input,
 input::-webkit-input-placeholder {
-    font-size: 20px;
-    line-height: 3;
+    font-size: 18px;
+    /*line-height: 3;*/
 }
 
 #mainContentWindow {
     background-color: #EEEEEE;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height:100%;
+    back
     
 }
 
 .navbarButton:hover { 
     background-color: #D7D7D7;
 }
+
+#procedureBox {
+    margin:22px;
+    padding:22px;
+    background-color:white;
+    height:100%;
+    
+}
+
+
 
