@@ -41,7 +41,7 @@
 
 .navbarButton {
     background-color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     height:50px;
     /*padding-top: 30px;*/
@@ -62,8 +62,8 @@
 
 #searchInput {
     margin-left: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-right: 22px;
 
 }
@@ -89,19 +89,33 @@ input::-webkit-input-placeholder {
     display: flex;
     flex-direction: column;
     height:100%;
-    back
-    
 }
 
 .navbarButton:hover { 
     background-color: #D7D7D7;
 }
 
-#procedureBox {
+#resourceBox {
     margin:22px;
     padding:22px;
     background-color:white;
     height:100%;
+    overflow:auto;
+    
+}
+
+.addResource {
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    padding:2px;
+    margin-left:100px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h3, p {
+    font-family: 'Open Sans', sans-serif;
     
 }
 
